@@ -7,6 +7,7 @@ import { SpotifyService } from 'src/app/services/spotify.service';
   templateUrl: './artista.component.html',
   styles: []
 })
+
 export class ArtistaComponent implements OnInit {
 
   artista: any = {};

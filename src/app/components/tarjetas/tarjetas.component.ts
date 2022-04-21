@@ -8,18 +8,18 @@ import { Router } from "@angular/router";
 })
 export class TarjetasComponent implements OnInit {
 
-  @Input() items:any[] = [];
+  @Input() items: any[] = [];
 
-  constructor( private router:Router) { }
+  constructor(private router: Router) { }
 
-  verArtista( item: any ){ // Mostrar el artista    
+  verArtista(item: any) { // Mostrar el artista    
     let artistaId;
-    if(item.type == "artist"){
+    if (item.type == "artist") {
       artistaId = item.id;
-    }else{
-      artistaId = item.artists[0].id;      
-    }    
-    this.router.navigate(['/artist',artistaId]);
+    } else {
+      artistaId = item.artists[0].id;
+    }
+    this.router.navigate(['/artist', artistaId]);
   }
 
   ngOnInit() {
