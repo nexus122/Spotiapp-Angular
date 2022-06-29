@@ -7,6 +7,8 @@ Con un sencillo desplegable podremos escoger.
 2. Cambiar la versión de Angular a la 8.3.21
 3. Cambiar la versión de Node a la 8.9.4
 4. Instalar las dependencias: ``npm install``
+5. Escribir ``npm start``
+6. Disfruta :)
 
 # Versiones
 **Version de Angular:** 8.3.21 </br>
